@@ -1,3 +1,6 @@
+// Copyright © 2020 JianHui Ding
+// Go-etcd v3 (Service Discovery)
+
 package main
 
 import (
