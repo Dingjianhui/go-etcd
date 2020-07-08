@@ -37,7 +37,7 @@ func NewServiceInfo(serviceId string,serviceName string,serviceAddress string) *
 func NewClient() (*Client,error) {
 	// 配置 etcd
 	config := clientv3.Config{
-		Endpoints:            []string{"192.168.137.134:23791","192.168.137.134:23792","192.168.137.134:23793"}, // 端点
+		Endpoints:            []string{"192.168.137.132:23791","192.168.137.132:23792","192.168.137.132:23793"}, // 端点
 		DialTimeout:          10*time.Second, // 超时时间
 	}
 

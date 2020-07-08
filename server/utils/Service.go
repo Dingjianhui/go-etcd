@@ -19,7 +19,7 @@ type Service struct {
 func NewService() (*Service,error) {
 	// 配置 etcd
 	config := clientv3.Config{
-		Endpoints:     []string{"192.168.137.134:23791","192.168.137.134:23792","192.168.137.134:23793"},
+		Endpoints:     []string{"192.168.137.132:23791","192.168.137.132:23792","192.168.137.132:23793"},
 		DialTimeout:   10*time.Second,
 	}
 	cli,err := clientv3.New(config)
